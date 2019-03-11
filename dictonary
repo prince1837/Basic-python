@@ -1,0 +1,71 @@
+Python 2.7.15rc1 (default, Apr 15 2018, 21:51:34) 
+[GCC 7.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a={"name":"prince", "age":18}
+>>> a[Name]="prince"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Name' is not defined
+>>> a={"name":"prince", "age":18}
+>>> a["Name"]="Prince"
+>>> print a
+{'age': 18, 'name': 'prince', 'Name': 'Prince'}
+>>> a={"name":"prince", "age":18}
+>>> 
+>>> a["Name"]="Prince"
+>>> del jilkC
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'jilkC' is not defined
+>>> print a
+{'age': 18, 'name': 'prince', 'Name': 'Prince'}
+>>> del a["name"]
+>>> print a
+{'age': 18, 'Name': 'Prince'}
+>>> a ["occupation"]="students"
+>>> print a
+{'age': 18, 'occupation': 'students', 'Name': 'Prince'}
+>>> squre {square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+  File "<stdin>", line 1
+    squre {square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+          ^
+SyntaxError: invalid syntax
+>>> squre={square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+  File "<stdin>", line 1
+    squre={square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+                 ^
+SyntaxError: invalid syntax
+>>> squre=square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+  File "<stdin>", line 1
+    squre=square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+                ^
+SyntaxError: invalid syntax
+>>> square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+  File "<stdin>", line 1
+    square{1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+          ^
+SyntaxError: invalid syntax
+>>> square={1:1,2:4, 3:9, 4:16, 5:25, 6:36}
+>>> square.pop(4)
+16
+>>> print square
+{1: 1, 2: 4, 3: 9, 5: 25, 6: 36}
+>>> squre["name":"prince"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'squre' is not defined
+>>> square["name"]="prince"
+>>> print square
+{1: 1, 2: 4, 3: 9, 5: 25, 6: 36, 'name': 'prince'}
+>>> clear.square
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>> clear
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>> square.clear()
+>>> print square
+{}
+>>> 
